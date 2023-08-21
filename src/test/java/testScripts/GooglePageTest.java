@@ -19,6 +19,7 @@ import org.testng.asserts.SoftAssert;
 public class GooglePageTest {
 	WebDriver driver;
 	
+	
 	@BeforeMethod
 	public void Initialsetup() {
 		 driver=new ChromeDriver();
